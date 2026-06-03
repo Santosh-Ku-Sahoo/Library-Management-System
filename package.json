@@ -1,0 +1,30 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "Library Management System",
+  "homepage": "https://github.com/Santosh-Ku-Sahoo/Library-Management-System#readme",
+  "bugs": {
+    "url": "https://github.com/Santosh-Ku-Sahoo/Library-Management-System/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santosh-Ku-Sahoo/Library-Management-System.git"
+  },
+  "license": "ISC",
+  "author": "MANTU",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
